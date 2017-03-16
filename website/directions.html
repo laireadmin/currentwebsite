@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link type='text/css' rel='stylesheet' href='styles/master.css' />
+<link type='text/css' rel='stylesheet' href='styles/nav.css' />
+<link type='text/css' rel='stylesheet' href='styles/text.css' />
+<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="scripts/bannerFade.js"></script>
+<script type="text/javascript" src="scripts/globalnav.js"></script>
+<title>L.A.I.R.E: Live Action Interactive Explorers: Directions Page</title>
+</head>
+<body onLoad="startxFade();">
+	<div class="wrapper">
+		
+		<div class="banner">
+			<div class="fadeImg"><img src="images/banners/1.jpg" id="swapImageBG2" height="250" width="768" alt=""></div>
+			<div class="fadeImg"><img src="images/banners/0.jpg" id="swapImageBG1" height="250" width="768" alt=""></div>
+			<div class="blackFill"></div>
+		</div>
+		
+		<nav>
+			<div class="newPlayerDrop">
+				<div class="selection_1" onclick="goToPage('whatLARP.html');"></div>
+				<div class="selection_2" onclick="goToPage('whatLAIRE.html');"></div>
+				<div class="selection_3" onclick="goToPage('whatToBring.html');"></div>
+				<div class="selection_4" onclick="goToPage('myFirstEvent.html');"></div>
+				<div class="selection_5" onclick="goToPage('playerTips.html');"></div>
+				<div class="selection_6" onclick="goToPage('cost.html');"></div>
+			</div>
+			<div class="rulesDrop">
+				<div class="selection_1" onclick="goToPage('rulebook.html');"></div>
+				<div class="selection_2" onclick="goToPage('quickRef.html');"></div>
+				<div class="selection_3Alt" onclick="goToPage('guideBook.html');"></div>
+				<div class="selection_4Alt" onclick="goToPage('characterHistory.html');"></div>
+			</div>
+			<div class="mediaDrop">
+				<div class="selection_1" onclick="goToPage('weaponsMaking.html');"></div>
+				<div class="selection_2" onclick="goToPage('makeUpDemos.html');"></div>
+				<div class="selection_3" onclick="goToPage('videos.html');"></div>
+				<div class="selection_4" onclick="goToPage('pictureGallery.html');"></div>
+			</div>
+			<div class="inGameDrop">
+				<div class="selection_1" onclick="goToPage('maps.html');"></div>
+				<div class="selection_2" onclick="goToPage('guilds.html');"></div>
+				<div class="selection_3" onclick="goToPage('nobles.html');"></div>
+				<div class="selection_4" onclick="goToPage('races.html');"></div>
+				<div class="selection_5" onclick="goToPage('classes.html');"></div>
+				<div class="selection_6" onclick="goToPage('advClasses.html');"></div>
+				<div class="selection_7" onclick="goToPage('beasts.html');"></div>
+			</div>
+			<div class="contactsDrop">
+				<div class="selection_1" onclick="goToPage('http://forum.laire.com');"></div>
+				<div class="selection_2" onclick="goToPage('contactus.html');"></div>
+				<div class="selection_3" onclick="goToPage('eboard.html');"></div>
+				<div class="selection_4" onclick="goToPageNew('https://www.facebook.com/LARPatLAIRE');"></div>
+				<div class="selection_5" onclick="goToPageNew('https://twitter.com/LARPatLAIRE');"></div>
+			</div>
+			<div class="newPlayerTab" onclick="navDrop(1)"></div>
+			<div class="rulesTab" onclick="navDrop(2)"></div>
+			<div class="mediaTab" onclick="navDrop(3)"></div>
+			<div class="inGameTab" onclick="navDrop(4)"></div>
+			<div class="directionsTab" onclick="goToPage('directions.html');"></div>
+			<div class="contactTab" onclick="navDrop(5)"></div>
+		</nav>
+		
+		
+		
+		<div class="content">
+			<div class="centered">
+			LAIRE is only located in:<br>
+			251 White Lake Road<br>
+			Lafayette, NJ 07848<br>
+			&nbsp;<br>
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=251+White+Lake+Road+Lafayette,+NJ+07848&amp;aq=&amp;sll=40.07304,-74.724323&amp;sspn=6.934453,15.853271&amp;ie=UTF8&amp;hq=&amp;hnear=White+Lake+Rd,+Lafayette,+Sussex,+New+Jersey+07848&amp;t=m&amp;z=14&amp;ll=41.086166,-74.655834&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=251+White+Lake+Road+Lafayette,+NJ+07848&amp;aq=&amp;sll=40.07304,-74.724323&amp;sspn=6.934453,15.853271&amp;ie=UTF8&amp;hq=&amp;hnear=White+Lake+Rd,+Lafayette,+Sussex,+New+Jersey+07848&amp;t=m&amp;z=14&amp;ll=41.086166,-74.655834" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			</div>
+			
+			<div class="largeCenter">
+				<b>From the Garden State Parkway:</b> 
+				<ul>
+						<li>Take the Garden State Parkway to Exit 145 (Route 280 West).</li>
+						<li>Take Route 280 West to Route 80 West, to Route 15 North and follow directions below from Route 15.</li>
+				</ul>
+				&nbsp;<br>
+				<b>From Route 287:</b> 
+				<ul>
+						<li>Take Route 287 North to Route 80 West, to Route 15 North and follow directions below from Route 15.</li>
+				</ul>
+				&nbsp;<br>
+				<b>From Route 206:</b> 
+				<ul>
+						<li>Take Route 206 North to Route 80 West, to Route 15 North and follow directions below from Route 15.</li>
+				</ul>
+				&nbsp;<br>
+				<b>From Route 15 North:</b> 
+				<ul>
+						<li>Take Route 15 North for 13 miles.</li>
+						<li>Make a right onto White Lake Road.</li>
+						<li>Camp Sacajawea is on the right hand side, approximately 1 mile from Route 15.</li>
+				</ul>
+				* If you come to a T-intersection at the end of White Lake Road, you have passed the camp.
+			</div>
+			<div class="footer">
+				<a href="myFirstEvent.html">FAQ</a> | <a href="eboard.html">Executive Board</a> | <a href="rulebook.html">Downloads</a> | <a href="members/new_prereg.php">Pre Registration</a> | <a href="http://forum.laire.com" target="_blank">Forums</a> | <a href="contactus.html">Help</a><br>
+				<span class="tinyText">Boy Scouts Explorer Post 2510</span>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

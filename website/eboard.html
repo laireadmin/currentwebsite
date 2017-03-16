@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link type='text/css' rel='stylesheet' href='styles/master.css' />
+<link type='text/css' rel='stylesheet' href='styles/nav.css' />
+<link type='text/css' rel='stylesheet' href='styles/text.css' />
+<script type="text/javascript" src="scripts/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="scripts/bannerFade.js"></script>
+<script type="text/javascript" src="scripts/globalnav.js"></script>
+<title>L.A.I.R.E: Live Action Interactive Explorers: Home Page</title>
+</head>
+<body onLoad="startxFade();">
+	<div class="wrapper">
+		
+		<div class="banner">
+			<div class="fadeImg"><img src="images/banners/1.jpg" id="swapImageBG2" height="250" width="768" alt=""></div>
+			<div class="fadeImg"><img src="images/banners/0.jpg" id="swapImageBG1" height="250" width="768" alt=""></div>
+			<div class="blackFill"></div>
+		</div>
+		
+		<nav>
+			<div class="newPlayerDrop">
+				<div class="selection_1" onclick="goToPage('whatLARP.html');"></div>
+				<div class="selection_2" onclick="goToPage('whatLAIRE.html');"></div>
+				<div class="selection_3" onclick="goToPage('whatToBring.html');"></div>
+				<div class="selection_4" onclick="goToPage('myFirstEvent.html');"></div>
+				<div class="selection_5" onclick="goToPage('playerTips.html');"></div>
+				<div class="selection_6" onclick="goToPage('cost.html');"></div>
+			</div>
+			<div class="rulesDrop">
+				<div class="selection_1" onclick="goToPage('rulebook.html');"></div>
+				<div class="selection_2" onclick="goToPage('quickRef.html');"></div>
+				<div class="selection_3Alt" onclick="goToPage('guideBook.html');"></div>
+				<div class="selection_4Alt" onclick="goToPage('characterHistory.html');"></div>
+			</div>
+			<div class="mediaDrop">
+				<div class="selection_1" onclick="goToPage('weaponsMaking.html');"></div>
+				<div class="selection_2" onclick="goToPage('makeUpDemos.html');"></div>
+				<div class="selection_3" onclick="goToPage('videos.html');"></div>
+				<div class="selection_4" onclick="goToPage('pictureGallery.html');"></div>
+			</div>
+			<div class="inGameDrop">
+				<div class="selection_1" onclick="goToPage('maps.html');"></div>
+				<div class="selection_2" onclick="goToPage('guilds.html');"></div>
+				<div class="selection_3" onclick="goToPage('nobles.html');"></div>
+				<div class="selection_4" onclick="goToPage('races.html');"></div>
+				<div class="selection_5" onclick="goToPage('classes.html');"></div>
+				<div class="selection_6" onclick="goToPage('advClasses.html');"></div>
+				<div class="selection_7" onclick="goToPage('beasts.html');"></div>
+			</div>
+			<div class="contactsDrop">
+				<div class="selection_1" onclick="goToPage('http://forum.laire.com');"></div>
+				<div class="selection_2" onclick="goToPage('contactus.html');"></div>
+				<div class="selection_3" onclick="goToPage('eboard.html');"></div>
+				<div class="selection_4" onclick="goToPageNew('https://www.facebook.com/LARPatLAIRE');"></div>
+				<div class="selection_5" onclick="goToPageNew('https://twitter.com/LARPatLAIRE');"></div>
+			</div>
+			<div class="newPlayerTab" onclick="navDrop(1)"></div>
+			<div class="rulesTab" onclick="navDrop(2)"></div>
+			<div class="mediaTab" onclick="navDrop(3)"></div>
+			<div class="inGameTab" onclick="navDrop(4)"></div>
+			<div class="directionsTab" onclick="goToPage('directions.html');"></div>
+			<div class="contactTab" onclick="navDrop(5)"></div>
+		</nav>
+		
+		
+		
+		<div class="content">
+			<table class="eboardTable">
+				<tr>
+					<td><img src="images/eboard/ed.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Joe Marchese - Executive Director</b><br>
+			The Executive Director is the head of LAIRE. Presides over E-BOARD and General membership meetings and directs the running of the organization. Ultimately is responsible for all aspects of the game. "The buck stops here!"</td>
+				</tr>
+				<tr>
+					<td><img src="images/eboard/logistics.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Ruth Schlender - Director of Logistics</b><br>
+			Contact for questions about your characters, sleeping assignments, and pre-registration.<br>Contact Logistics at <a href="mailto:LaireLogistics@yahoo.com?Subject=Logistics%20Email%20from%20Laire%20dot%20com" target="_top">
+LaireLogistics@yahoo.com</a>.</td>
+				</tr>
+				<tr>
+					<td><img src="images/eboard/pr.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Savanna Asta - Director of Public Relations</b><br>
+			The Master of all things Public Relations and new player contact.<br>Contact PR at <a href="mailto:LairePR@Gmail.com?Subject=PR%20Email%20from%20Laire%20dot%20com" target="_top">
+LairePR@gmail.com</a>.</td>
+				</tr>
+				<tr>
+					<td><img src="images/eboard/plot.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>James Chayka - Director of Plot</b><br>
+			The head of the plot committee.  Sets the overall storyline for our game.  This is the person to contact if you have plot related questions.<br> Contact Plot at <a href="mailto:LairePlot@gmail.com?Subject=Plot%20Email%20from%20Laire%20dot%20com" target="_top">
+LairePlot@gmail.com</a></td></td>
+				</tr>
+				<!--
+				<tr>
+					<td><img src="images/eboard/finance.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Christine Setian - Director of Finance</b><br>
+			This will be the person to contact if you have questions about membership fees, discounts, and budgets.</td>
+				</tr>
+				// -->
+				<tr>
+					<td><img src="images/eboard/playerRep1.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Rob Kusma - Player Representative</b><br>
+			The Player Representatives are the voice of the players. They make sure that the players&#39; interests are respected when E-BOARD makes its decisions. They represent you, let them know how you feel.  Please contact them if you have any questions or complaints.</td>
+				</tr>
+				<tr>
+					<td><img src="images/eboard/playerRep2.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Andrew DeLouisa - Player Representative</b><br>
+			The Player Representatives are the voice of the players. They make sure that the players&#39; interests are respected when E-BOARD makes its decisions. They represent you, let them know how you feel.  Please contact them if you have any questions or complaints.</td>
+				</tr>
+				<tr>
+					<td><img src="images/eboard/playerRep3.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Lauren Coluccio - Player Representative</b><br>
+			The Player Representatives are the voice of the players. They make sure that the players&#39; interests are respected when E-BOARD makes its decisions. They represent you, let them know how you feel.  Please contact them if you have any questions or complaints.</td>
+				</tr>
+				<tr>
+					<td><img src="images/eboard/playerRep4.jpg" width="74" height="78"></td>
+					<td style="width:550px"><b>Jason Grifo - Player Representative</b><br>
+			The Player Representatives are the voice of the players. They make sure that the players&#39; interests are respected when E-BOARD makes its decisions. They represent you, let them know how you feel.  Please contact them if you have any questions or complaints.</td>
+				</tr>				
+			</table>
+			
+		 	
+		 	
+		 	
+			<div class="footer">
+				<a href="myFirstEvent.html">FAQ</a> | <a href="eboard.html">Executive Board</a> | <a href="rulebook.html">Downloads</a> | <a href="members/new_prereg.php">Pre Registration</a> | <a href="http://forum.laire.com" target="_blank">Forums</a> | <a href="contactus.html">Help</a><br>
+				<span class="tinyText">Boy Scouts Explorer Post 2510</span>
+			</div> 
+		</div>
+		
+	</div>
+</body>
+</html>
